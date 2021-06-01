@@ -18,12 +18,12 @@ html, body {
 		}
 		#footer {
 			height: 10%;
-			background-color: grey:
+			background-color: grey;
 			clear: both;
 		}
 		#container {
 			width: 85%;
-			height: 70%
+			height: 70%;
 			float: right;
 		}
 	</style>
