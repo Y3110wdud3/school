@@ -11,12 +11,13 @@ html, body {
 			width: 30%;
 			height: 70%;
 			background-color: blue;
-			float: red;
+			float: left;
 		}
 		#footer {
 			height: 10%;
 			background-color: red;
 			width: 100%;
+			float: clear;
 		}
 		#container {
 			width: 70%;
