@@ -11,6 +11,7 @@ html, body {
 			width: 30%;
 			height: 70%;
 			background-color: blue;
+			float: red;
 		}
 		#footer {
 			height: 10%;
@@ -20,4 +21,6 @@ html, body {
 		#container {
 			width: 70%;
 			height: 70%;
+			float: right;
+			background-color: green;
 		}
