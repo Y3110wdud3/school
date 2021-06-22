@@ -31,6 +31,46 @@
 			height: 70%
 			float: right;
 		}
+		#container ul:active {
+			display: none
+		}
+		#container div{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: relative;
+			animation-name: example;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes ex {
+			0% {
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+			25% {
+				background-color: yellow;
+				left: 200px;
+				top: 0px;
+			}
+			50% {
+				background-color: blue;
+				left: 200px;
+				top: 200px;
+			}
+			75% {
+				background-color: green;
+				left: 0px;
+				top: 200px;
+			}
+			100% {
+				background-color: red;
+				left: 0px;
+				top: 0px;
+			}
+			
+		
 	</style>
 </head>
 <body>
@@ -47,12 +87,12 @@
 		</ul>
 	</div>
 	<div id="container>
-		<a href="https://www.youtube.com/"><img src="21605.jpg" width="1000px" height="633px"></a>
 		<ul>
 			<li>이름</li>
 			<li>나이: 17</li>
 			<li>생일: 20051208</li>
 			<li>희망학과:기계공학과</li>
+		 	<li>https://youtube.com></li>
 		</ul>
 		<p>방문객에게 한마디!</p>
 		<p>아령하세요. 엘런 머스크에요</p>
